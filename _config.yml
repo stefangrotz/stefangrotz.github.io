@@ -10,7 +10,7 @@ title:            stefan.grotz.me
 tagline:          ''
 description:      ''
 url:              http://stefangrotz.github.io
-baseurl:          /
+baseurl:          http://stefangrotz.github.io/
 
 author:
   name:           ''
