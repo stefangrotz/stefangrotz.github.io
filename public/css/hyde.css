@@ -85,6 +85,12 @@ html {
   font-size: 2.25rem;
 }
 
+hr.titel {
+    width: 75%;
+    border: solid rgba( 255, 255, 255, 0.2 ) 1.5px;
+    padding-right: 40px;
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
