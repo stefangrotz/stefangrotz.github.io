@@ -7,19 +7,19 @@ permalink:        pretty
 
 # Setup
 title:            stefan.grotz.me
-tagline:          ''
-description:      ''
+tagline:          'test'
+description:      'test'
 url:              http://stefangrotz.github.io
-baseurl:          http://stefangrotz.github.io/
+baseurl:          /
 
 author:
-  name:           ''
-  url:            
+  name:           'test'
+  url:            http://test
 
 paginate:         5
 
 # Custom vars
-version:          2.1.0
+version:          1.2.3
 
 github:
   repo:           https://github.com/poole/hyde
