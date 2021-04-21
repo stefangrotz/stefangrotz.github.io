@@ -1,37 +1,52 @@
----
-layout: default
-title: Home
----
-
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Voice Spenden Challenge</title>
+</head>
+<body>
+    
+    <h1>Topliste der Common Voice Spenden Challenge Mai 2021</h1>
+    <p>Willkommen auf dem Leaderboard der Common Voice Spenden Challenge. Hier tracken wir einen Monat lang wer wieviel spendet und die Plätze 1-20 erhalten als Dankeschön Sticker zugeschickt. </p>
+    
+<table>
+  <tr>
+    <th>#</th>
+    <th>Nutzername</th>
+    <th>Aufnahmen</th>
+    <th>Validierungen</th>
+    <th>Score</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>stergro</td>
+    <td>20</td>
+    <td>20</td>
+    <td>30</td>
+   </tr>
+    <tr>
+    <td>1</td>
+    <td>stergro</td>
+    <td>20</td>
+    <td>20</td>
+    <td>30</td>
+   </tr>
+    
+     <tr>
+    <td>1</td>
+    <td>stergro</td>
+    <td>20</td>
+    <td>20</td>
+    <td>30</td>
+   </tr>
+    
+</table>
+ <p>last updated: 17.04.21 08:03 UTC</p>
+    
+<ul>
+<li>1. Stefan Grotz</li>
+<li>2. 54696d21</li>
+</ul>
+</body>
+</html>
